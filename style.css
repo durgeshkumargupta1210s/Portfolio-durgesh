@@ -69,8 +69,14 @@ body {
   position: relative;
   width: 100%;
   height: 130vh;
+  /* background: url(./bgc1.jpg) no-repeat center center;
+  background-size: 100% 95%; */
+
   background: url(./bgc1.jpg) no-repeat center center;
-  background-size: 100% 95%;
+background-size: cover;
+background-position: center;
+background-attachment: scroll;
+
   display: flex;
   align-items: center;
   padding: 120px 10% 70px 10%;
@@ -198,6 +204,14 @@ body {
     font-size: 14px;
     margin-left: 15px;
   }
+  /* .home{
+   
+  background: url(./bgc1.jpg) no-repeat center center;
+background-size: cover;
+background-position: center;
+background-attachment: scroll;
+  } */
+
 }
 
 /* --- Tablets (max-width: 768px) --- */
